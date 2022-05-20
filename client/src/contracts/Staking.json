@@ -1,0 +1,190 @@
+{
+  "contractName": "Staking",
+  "abi": [
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"stateMutability\":\"payable\",\"type\":\"fallback\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Staking.sol\":\"Staking\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Staking.sol\":{\"keccak256\":\"0x7a8ae58e14671fa9963431b81fea7d9e3ed48562eb21d69f7371c4187f5e04d6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f86ce68586b0cfd86a5bbea46f3202aea7ed5a015f57ac7e6cbcc8fe61a59321\",\"dweb:/ipfs/Qma9WZd7nVCdvdyepHRcF2mcY9iJi34w5LjqgoCLZgubXf\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603c80601d6000396000f3fe608060405200fea2646970667358221220d138713399dbf76ca39c80dd0457684dadaf7b3765268e504b97b375b687b32964736f6c634300080e0033",
+  "deployedBytecode": "0x608060405200fea2646970667358221220d138713399dbf76ca39c80dd0457684dadaf7b3765268e504b97b375b687b32964736f6c634300080e0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "58:55:5:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "58:55:5:-:0;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.8.9;\n\ncontract Staking {\n    fallback() external payable {}\n}",
+  "sourcePath": "/home/mikhil/job_assignments/mindeft/contracts/Staking.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Staking.sol",
+    "exportedSymbols": {
+      "Staking": [
+        1147
+      ]
+    },
+    "id": 1148,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1142,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".9"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:24:5"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Staking",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1147,
+        "linearizedBaseContracts": [
+          1147
+        ],
+        "name": "Staking",
+        "nameLocation": "67:7:5",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1145,
+              "nodeType": "Block",
+              "src": "109:2:5",
+              "statements": []
+            },
+            "id": 1146,
+            "implemented": true,
+            "kind": "fallback",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1143,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "89:2:5"
+            },
+            "returnParameters": {
+              "id": 1144,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "109:0:5"
+            },
+            "scope": 1147,
+            "src": "81:30:5",
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1148,
+        "src": "58:55:5",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:81:5"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Staking.sol",
+    "exportedSymbols": {
+      "Staking": [
+        1147
+      ]
+    },
+    "id": 1148,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1142,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".9"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:24:5"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Staking",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1147,
+        "linearizedBaseContracts": [
+          1147
+        ],
+        "name": "Staking",
+        "nameLocation": "67:7:5",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1145,
+              "nodeType": "Block",
+              "src": "109:2:5",
+              "statements": []
+            },
+            "id": 1146,
+            "implemented": true,
+            "kind": "fallback",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1143,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "89:2:5"
+            },
+            "returnParameters": {
+              "id": 1144,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "109:0:5"
+            },
+            "scope": 1147,
+            "src": "81:30:5",
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1148,
+        "src": "58:55:5",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:81:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-05-19T15:22:17.238Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

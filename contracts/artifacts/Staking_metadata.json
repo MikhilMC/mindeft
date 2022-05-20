@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Staking.sol": "Staking"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Staking.sol": {
+			"keccak256": "0x00aaebc76f01f9b77a087825e07c77c0ba698d0d932cd1b23b64992279a8a2c3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://391ceda35c567da90a7247d503c0221deba73d7811bd1cac480b6be0570eed15",
+				"dweb:/ipfs/QmPkDEuYJUFYJTnyyWQ9mPLCv6KMBQtJAmZF9R6qmMjMBw"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getContractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Liquidity.sol": "Liquidity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Liquidity.sol": {
+			"keccak256": "0xa87b53614f31b471e43d7c1a38c839c07c859ce6469a3b2d68c4118b05d315a0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://00ac01a42e2466c19d7f18cab0fbe2b3e21edcb8b28c7a56103e8b45031372ba",
+				"dweb:/ipfs/QmdkigxbmgseXHfXWUiqkfAjSX9h2NFwRc5KMaWC8fBHQV"
+			]
+		}
+	},
+	"version": 1
+}
